@@ -49,8 +49,8 @@ ReactDOM.render(<HelloWorld />, document.getElementById("root"));
 2. Click the "Submit" button.
 3. The transpiled code will be displayed in the preformatted text block:
 
-```js
-const HelloWorld = () => {
+```javascript
+var HelloWorld = function () {
   return React.createElement("h1", null, "Hello, World!");
 };
 
